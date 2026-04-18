@@ -5,7 +5,9 @@ const ALLOWED_ORIGINS = [
   'https://api.linkedin.com/',
   'https://www.linkedin.com/oauth/',
   'https://api.twitter.com/',
-  'https://upload.twitter.com/'
+  'https://api.x.com/',
+  'https://upload.twitter.com/',
+  'https://upload.x.com/'
 ];
 
 export default async function handler(req, res) {
